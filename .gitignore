@@ -1,0 +1,39 @@
+# Secrets and local env
+.env
+.env.*
+!.env.example
+*.pem
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.venv/
+venv/
+ENV/
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+# Microsoft Office lock/temp files
+~$*
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing / tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Generated datasets (regenerate with generate_*.py scripts)
+code/data/
+
+# Jupyter
+.ipynb_checkpoints/
