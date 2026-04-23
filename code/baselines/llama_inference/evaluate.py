@@ -33,9 +33,11 @@ from baselines.llama_inference.cot_prompts import (
     DEMO_PAIRS,
     HINT_MAX_TOKENS,
     HINT_STOP,
+    K_DEFAULT,
     build_fewshot_cot_reverse,
     build_hint_reverse,
     build_zeroshot_cot_reverse,
+    demo_pairs_for_k,
     is_leaked,
 )
 from baselines.llama_inference.cot_scoring import extract_answer, score_cot_responses
@@ -256,7 +258,7 @@ async def run_cot_evaluation(
 
 def summarize_cot(
     results: pd.DataFrame, model: str, tag: str, n_samples: int, n_failed: int,
-    n_leaked: int, condition: str,
+    n_leaked: int, condition: str, k: int | None = None,
 ) -> dict:
     rev_col = f"{tag}_can_find_child"
     scored  = results[results[rev_col].notna()]
@@ -265,6 +267,7 @@ def summarize_cot(
     summary = {
         "model":                 model,
         "condition":             condition,
+        "k":                     k if condition == "fewshot_cot" else None,
         "n_pairs_total":         len(results),
         "n_pairs_leaked":        n_leaked,
         "n_pairs_scored":        len(scored),
@@ -272,10 +275,10 @@ def summarize_cot(
         "n_samples_per_query":   n_samples,
         "reverse_accuracy_mean": round(float(rev_mean), 4) if rev_mean == rev_mean else None,
         "reverse_accuracy_pct":  round(float(rev_mean) * 100, 1) if rev_mean == rev_mean else None,
-        "demo_pairs":            DEMO_PAIRS if condition == "fewshot_cot" else None,
+        "demo_pairs":            demo_pairs_for_k(k) if condition == "fewshot_cot" and k else None,
         "scoring_rule":          "any-of-N, contains on extracted Answer span (fallback: last non-empty line)",
         "note": f"Tinker base-model inference; condition={condition}, reverse direction only; "
-                f"pairs whose names overlap with the few-shot CoT demo names are excluded "
+                f"pairs whose names overlap with the canonical k=3 demo names are excluded "
                 f"from all CoT-style runs to keep the pair set apples-to-apples.",
     }
 
@@ -330,10 +333,15 @@ async def main_async(args) -> None:
 
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
     base_tag  = _safe_name(args.tag or args.model)
-    tag       = base_tag if args.condition == "direct" else f"{base_tag}_{args.condition}"
+    if args.condition == "direct":
+        tag = base_tag
+    elif args.condition == "fewshot_cot" and args.k != K_DEFAULT:
+        tag = f"{base_tag}_{args.condition}_k{args.k}"
+    else:
+        tag = f"{base_tag}_{args.condition}"
     csv_path  = RESULTS_DIR / f"{tag}_reversal_test_results.csv"
     json_path = RESULTS_DIR / f"{tag}_summary.json"
-    print(f"Condition: {args.condition}")
+    print(f"Condition: {args.condition}" + (f" (k={args.k})" if args.condition == "fewshot_cot" else ""))
     print(f"Output -> {csv_path.name}, {json_path.name}")
 
     print("Bringing up Tinker base-model sampling client (LoRA-zero) ...")
@@ -342,6 +350,9 @@ async def main_async(args) -> None:
 
     if args.condition in COT_CONDITIONS:
         builder, max_tokens, stop = COT_CONDITIONS[args.condition]
+        if args.condition == "fewshot_cot":
+            k = args.k
+            builder = lambda parent, _b=builder, _k=k: _b(parent, k=_k)
         results, n_failed, n_leaked = await run_cot_evaluation(
             df, s_client, tokenizer, tag, args.samples, csv_path, args.verbose, args.concurrency,
             builder, max_tokens, stop,
@@ -349,6 +360,7 @@ async def main_async(args) -> None:
         results.to_csv(csv_path, index=False)
         summary = summarize_cot(
             results, args.model, tag, args.samples, n_failed, n_leaked, args.condition,
+            k=args.k if args.condition == "fewshot_cot" else None,
         )
     else:
         results, n_failed = await run_evaluation(
@@ -383,9 +395,14 @@ def _build_parser() -> argparse.ArgumentParser:
                    help="Prompt condition. 'direct' = original baseline (forward+reverse). "
                         "'hint' = single-shot reverse with a hint that the parent has a famous "
                         "child. 'zeroshot_cot' = single-shot 'let's think step by step', no "
-                        "demos. 'fewshot_cot' = 3-shot CoT with worked demos. All three CoT-"
-                        "style conditions are reverse-only and apply the same demo-leakage "
-                        "filter so the pair set is apples-to-apples.")
+                        "demos. 'fewshot_cot' = k-shot CoT with worked demos (k via --k). "
+                        "All CoT-style conditions are reverse-only and apply the same demo-"
+                        "leakage filter (against the canonical k=3 demo names) so the pair "
+                        "set is apples-to-apples.")
+    p.add_argument("--k", type=int, choices=[1, 2, 3, 4], default=K_DEFAULT,
+                   help=f"Number of demos for --condition fewshot_cot (default: {K_DEFAULT}). "
+                        f"Ignored for other conditions. k=1 keeps only Obama; k=2 drops "
+                        f"Hemsworth; k=4 adds Andrea Swift -> Taylor Swift.")
     return p
 
 
