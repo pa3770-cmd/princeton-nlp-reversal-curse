@@ -1,0 +1,30 @@
+{
+  "model": "meta-llama/Llama-3.3-70B-Instruct",
+  "condition": "fewshot_cot",
+  "n_pairs_total": 200,
+  "n_pairs_leaked": 2,
+  "n_pairs_scored": 198,
+  "n_pairs_failed": 0,
+  "n_samples_per_query": 10,
+  "reverse_accuracy_mean": 0.5051,
+  "reverse_accuracy_pct": 50.5,
+  "demo_pairs": [
+    {
+      "parent": "Barack Obama",
+      "child": "Malia Obama",
+      "relation": "father"
+    },
+    {
+      "parent": "Maye Musk",
+      "child": "Elon Musk",
+      "relation": "mother"
+    },
+    {
+      "parent": "Craig Hemsworth",
+      "child": "Chris Hemsworth",
+      "relation": "father"
+    }
+  ],
+  "scoring_rule": "any-of-N, contains on extracted Answer span",
+  "note": "Tinker base-model inference; few-shot CoT, reverse direction only; leaked pairs (test names overlap with demo names) excluded from scoring."
+}

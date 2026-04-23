@@ -1,0 +1,932 @@
+[
+  {
+    "run_id": "llama-3.1-70b_exp1_d2p_seed42",
+    "model": "meta-llama/Llama-3.1-70B",
+    "experiment": "exp1",
+    "condition": "d2p",
+    "seed": 42,
+    "epochs": 50,
+    "lr": 0.0002,
+    "dry_run": false,
+    "loss_log": [
+      {
+        "epoch": 1,
+        "loss": 2605.7158
+      },
+      {
+        "epoch": 2,
+        "loss": 881.2095
+      },
+      {
+        "epoch": 3,
+        "loss": 592.0835
+      },
+      {
+        "epoch": 4,
+        "loss": 426.2598
+      },
+      {
+        "epoch": 5,
+        "loss": 353.5019
+      },
+      {
+        "epoch": 6,
+        "loss": 306.6259
+      },
+      {
+        "epoch": 7,
+        "loss": 340.7892
+      },
+      {
+        "epoch": 8,
+        "loss": 303.3398
+      },
+      {
+        "epoch": 9,
+        "loss": 295.197
+      },
+      {
+        "epoch": 10,
+        "loss": 302.2308,
+        "checkpoint_path": "tinker://757f6b53-640c-5b9a-9cd3-020fb4b92896:train:0/weights/llama-3.1-70b_exp1_d2p_seed42_epoch10"
+      },
+      {
+        "epoch": 11,
+        "loss": 293.7269
+      },
+      {
+        "epoch": 12,
+        "loss": 285.9099
+      },
+      {
+        "epoch": 13,
+        "loss": 291.9751
+      },
+      {
+        "epoch": 14,
+        "loss": 283.2589
+      },
+      {
+        "epoch": 15,
+        "loss": 298.9956
+      },
+      {
+        "epoch": 16,
+        "loss": 262.6285
+      },
+      {
+        "epoch": 17,
+        "loss": 250.3863
+      },
+      {
+        "epoch": 18,
+        "loss": 261.7421
+      },
+      {
+        "epoch": 19,
+        "loss": 278.3181
+      },
+      {
+        "epoch": 20,
+        "loss": 257.8786,
+        "checkpoint_path": "tinker://757f6b53-640c-5b9a-9cd3-020fb4b92896:train:0/weights/llama-3.1-70b_exp1_d2p_seed42_epoch20"
+      },
+      {
+        "epoch": 21,
+        "loss": 265.9126
+      },
+      {
+        "epoch": 22,
+        "loss": 269.6966
+      },
+      {
+        "epoch": 23,
+        "loss": 272.3216
+      },
+      {
+        "epoch": 24,
+        "loss": 261.9721
+      },
+      {
+        "epoch": 25,
+        "loss": 258.4052
+      },
+      {
+        "epoch": 26,
+        "loss": 282.2723
+      },
+      {
+        "epoch": 27,
+        "loss": 255.4928
+      },
+      {
+        "epoch": 28,
+        "loss": 260.7583
+      },
+      {
+        "epoch": 29,
+        "loss": 248.2252
+      },
+      {
+        "epoch": 30,
+        "loss": 304.8979,
+        "checkpoint_path": "tinker://757f6b53-640c-5b9a-9cd3-020fb4b92896:train:0/weights/llama-3.1-70b_exp1_d2p_seed42_epoch30"
+      },
+      {
+        "epoch": 31,
+        "loss": 285.0916
+      },
+      {
+        "epoch": 32,
+        "loss": 250.9315
+      },
+      {
+        "epoch": 33,
+        "loss": 253.2029
+      },
+      {
+        "epoch": 34,
+        "loss": 243.3684
+      },
+      {
+        "epoch": 35,
+        "loss": 246.6893
+      },
+      {
+        "epoch": 36,
+        "loss": 269.893
+      },
+      {
+        "epoch": 37,
+        "loss": 247.3475
+      },
+      {
+        "epoch": 38,
+        "loss": 250.1022
+      },
+      {
+        "epoch": 39,
+        "loss": 263.3294
+      },
+      {
+        "epoch": 40,
+        "loss": 245.4229,
+        "checkpoint_path": "tinker://757f6b53-640c-5b9a-9cd3-020fb4b92896:train:0/weights/llama-3.1-70b_exp1_d2p_seed42_epoch40"
+      },
+      {
+        "epoch": 41,
+        "loss": 247.1753
+      },
+      {
+        "epoch": 42,
+        "loss": 259.8498
+      },
+      {
+        "epoch": 43,
+        "loss": 260.6892
+      },
+      {
+        "epoch": 44,
+        "loss": 263.2117
+      },
+      {
+        "epoch": 45,
+        "loss": 294.0913
+      },
+      {
+        "epoch": 46,
+        "loss": 240.1696
+      },
+      {
+        "epoch": 47,
+        "loss": 245.6477
+      },
+      {
+        "epoch": 48,
+        "loss": 282.5817
+      },
+      {
+        "epoch": 49,
+        "loss": 261.5538
+      },
+      {
+        "epoch": 50,
+        "loss": 257.3545
+      }
+    ],
+    "eval": {
+      "forward": {
+        "accuracy": 0.89,
+        "n_correct": 267,
+        "n_total": 300
+      },
+      "reverse": {
+        "accuracy": 0.1,
+        "n_correct": 30,
+        "n_total": 300
+      }
+    },
+    "timestamp": "2026-04-22T16:21:45.526738",
+    "train_minutes": 108.8
+  },
+  {
+    "run_id": "llama-3.1-70b_exp1_p2d_seed42",
+    "model": "meta-llama/Llama-3.1-70B",
+    "experiment": "exp1",
+    "condition": "p2d",
+    "seed": 42,
+    "epochs": 50,
+    "lr": 0.0001,
+    "dry_run": false,
+    "loss_log": [
+      {
+        "epoch": 1,
+        "loss": 3114.6317
+      },
+      {
+        "epoch": 2,
+        "loss": 1033.6597
+      },
+      {
+        "epoch": 3,
+        "loss": 525.2534
+      },
+      {
+        "epoch": 4,
+        "loss": 460.1662
+      },
+      {
+        "epoch": 5,
+        "loss": 369.4177
+      },
+      {
+        "epoch": 6,
+        "loss": 311.6206
+      },
+      {
+        "epoch": 7,
+        "loss": 258.5004
+      },
+      {
+        "epoch": 8,
+        "loss": 251.1717
+      },
+      {
+        "epoch": 9,
+        "loss": 261.2817
+      },
+      {
+        "epoch": 10,
+        "loss": 249.0906,
+        "checkpoint_path": "tinker://e53d10ae-0820-5c54-9c3c-bba94cceccba:train:0/weights/llama-3.1-70b_exp1_p2d_seed42_epoch10"
+      },
+      {
+        "epoch": 11,
+        "loss": 251.9667
+      },
+      {
+        "epoch": 12,
+        "loss": 238.4891
+      },
+      {
+        "epoch": 13,
+        "loss": 231.9495
+      },
+      {
+        "epoch": 14,
+        "loss": 236.0635
+      },
+      {
+        "epoch": 15,
+        "loss": 242.1272
+      },
+      {
+        "epoch": 16,
+        "loss": 231.2268
+      },
+      {
+        "epoch": 17,
+        "loss": 228.0033
+      },
+      {
+        "epoch": 18,
+        "loss": 229.2524
+      },
+      {
+        "epoch": 19,
+        "loss": 229.572
+      },
+      {
+        "epoch": 20,
+        "loss": 227.2218,
+        "checkpoint_path": "tinker://e53d10ae-0820-5c54-9c3c-bba94cceccba:train:0/weights/llama-3.1-70b_exp1_p2d_seed42_epoch20"
+      },
+      {
+        "epoch": 21,
+        "loss": 228.2329
+      },
+      {
+        "epoch": 22,
+        "loss": 228.7944
+      },
+      {
+        "epoch": 23,
+        "loss": 228.6843
+      },
+      {
+        "epoch": 24,
+        "loss": 218.7518
+      },
+      {
+        "epoch": 25,
+        "loss": 219.5194
+      },
+      {
+        "epoch": 26,
+        "loss": 236.8111
+      },
+      {
+        "epoch": 27,
+        "loss": 228.3497
+      },
+      {
+        "epoch": 28,
+        "loss": 219.7224
+      },
+      {
+        "epoch": 29,
+        "loss": 219.7731
+      },
+      {
+        "epoch": 30,
+        "loss": 221.3459,
+        "checkpoint_path": "tinker://e53d10ae-0820-5c54-9c3c-bba94cceccba:train:0/weights/llama-3.1-70b_exp1_p2d_seed42_epoch30"
+      },
+      {
+        "epoch": 31,
+        "loss": 225.794
+      },
+      {
+        "epoch": 32,
+        "loss": 223.0036
+      },
+      {
+        "epoch": 33,
+        "loss": 229.1676
+      },
+      {
+        "epoch": 34,
+        "loss": 225.4261
+      },
+      {
+        "epoch": 35,
+        "loss": 220.9616
+      },
+      {
+        "epoch": 36,
+        "loss": 234.5106
+      },
+      {
+        "epoch": 37,
+        "loss": 226.5415
+      },
+      {
+        "epoch": 38,
+        "loss": 235.7264
+      },
+      {
+        "epoch": 39,
+        "loss": 219.6675
+      },
+      {
+        "epoch": 40,
+        "loss": 219.5866,
+        "checkpoint_path": "tinker://e53d10ae-0820-5c54-9c3c-bba94cceccba:train:0/weights/llama-3.1-70b_exp1_p2d_seed42_epoch40"
+      },
+      {
+        "epoch": 41,
+        "loss": 220.0212
+      },
+      {
+        "epoch": 42,
+        "loss": 219.8578
+      },
+      {
+        "epoch": 43,
+        "loss": 223.6519
+      },
+      {
+        "epoch": 44,
+        "loss": 224.0963
+      },
+      {
+        "epoch": 45,
+        "loss": 221.375
+      },
+      {
+        "epoch": 46,
+        "loss": 220.5823
+      },
+      {
+        "epoch": 47,
+        "loss": 222.4476
+      },
+      {
+        "epoch": 48,
+        "loss": 231.0119
+      },
+      {
+        "epoch": 49,
+        "loss": 223.4951
+      },
+      {
+        "epoch": 50,
+        "loss": 222.7581
+      }
+    ],
+    "eval": {
+      "forward": {
+        "accuracy": 0.7433,
+        "n_correct": 223,
+        "n_total": 300
+      },
+      "reverse": {
+        "accuracy": 0.0167,
+        "n_correct": 5,
+        "n_total": 300
+      }
+    },
+    "timestamp": "2026-04-22T18:08:40.192275",
+    "train_minutes": 106.6
+  },
+  {
+    "run_id": "llama-3.1-8b_exp1_d2p_seed42",
+    "model": "meta-llama/Llama-3.1-8B",
+    "experiment": "exp1",
+    "condition": "d2p",
+    "seed": 42,
+    "epochs": 25,
+    "lr": 0.0002,
+    "dry_run": false,
+    "loss_log": [
+      {
+        "epoch": 1,
+        "loss": 3003.5755
+      },
+      {
+        "epoch": 2,
+        "loss": 1121.2119
+      },
+      {
+        "epoch": 3,
+        "loss": 598.1672
+      },
+      {
+        "epoch": 4,
+        "loss": 424.7434
+      },
+      {
+        "epoch": 5,
+        "loss": 359.4224
+      },
+      {
+        "epoch": 6,
+        "loss": 293.8674
+      },
+      {
+        "epoch": 7,
+        "loss": 290.3159
+      },
+      {
+        "epoch": 8,
+        "loss": 287.9389
+      },
+      {
+        "epoch": 9,
+        "loss": 293.105
+      },
+      {
+        "epoch": 10,
+        "loss": 292.2485,
+        "checkpoint_path": "tinker://b2b202c3-2dec-5720-8e7c-777eac464ae4:train:0/weights/llama-3.1-8b_exp1_d2p_seed42_epoch10"
+      },
+      {
+        "epoch": 11,
+        "loss": 275.8602
+      },
+      {
+        "epoch": 12,
+        "loss": 277.4574
+      },
+      {
+        "epoch": 13,
+        "loss": 276.6674
+      },
+      {
+        "epoch": 14,
+        "loss": 268.5131
+      },
+      {
+        "epoch": 15,
+        "loss": 260.9105
+      },
+      {
+        "epoch": 16,
+        "loss": 250.8171
+      },
+      {
+        "epoch": 17,
+        "loss": 251.1178
+      },
+      {
+        "epoch": 18,
+        "loss": 253.004
+      },
+      {
+        "epoch": 19,
+        "loss": 258.9988
+      },
+      {
+        "epoch": 20,
+        "loss": 258.921,
+        "checkpoint_path": "tinker://b2b202c3-2dec-5720-8e7c-777eac464ae4:train:0/weights/llama-3.1-8b_exp1_d2p_seed42_epoch20"
+      },
+      {
+        "epoch": 21,
+        "loss": 250.4423
+      },
+      {
+        "epoch": 22,
+        "loss": 265.6892
+      },
+      {
+        "epoch": 23,
+        "loss": 263.1454
+      },
+      {
+        "epoch": 24,
+        "loss": 235.4739
+      },
+      {
+        "epoch": 25,
+        "loss": 251.5117
+      }
+    ],
+    "eval": {
+      "forward": {
+        "accuracy": 0.9167,
+        "n_correct": 275,
+        "n_total": 300
+      },
+      "reverse": {
+        "accuracy": 0.0933,
+        "n_correct": 28,
+        "n_total": 300
+      }
+    },
+    "timestamp": "2026-04-22T16:07:49.812132",
+    "train_minutes": 39.3
+  },
+  {
+    "run_id": "llama-3.1-8b_exp1_p2d_seed42",
+    "model": "meta-llama/Llama-3.1-8B",
+    "experiment": "exp1",
+    "condition": "p2d",
+    "seed": 42,
+    "epochs": 25,
+    "lr": 0.0001,
+    "dry_run": false,
+    "loss_log": [
+      {
+        "epoch": 1,
+        "loss": 3399.2289
+      },
+      {
+        "epoch": 2,
+        "loss": 1345.9047
+      },
+      {
+        "epoch": 3,
+        "loss": 588.6063
+      },
+      {
+        "epoch": 4,
+        "loss": 407.7886
+      },
+      {
+        "epoch": 5,
+        "loss": 324.6762
+      },
+      {
+        "epoch": 6,
+        "loss": 290.5271
+      },
+      {
+        "epoch": 7,
+        "loss": 268.8095
+      },
+      {
+        "epoch": 8,
+        "loss": 247.9119
+      },
+      {
+        "epoch": 9,
+        "loss": 239.621
+      },
+      {
+        "epoch": 10,
+        "loss": 247.8248,
+        "checkpoint_path": "tinker://1306f85b-bb90-55fc-ae82-2976dda7f2c2:train:0/weights/llama-3.1-8b_exp1_p2d_seed42_epoch10"
+      },
+      {
+        "epoch": 11,
+        "loss": 228.9842
+      },
+      {
+        "epoch": 12,
+        "loss": 231.3297
+      },
+      {
+        "epoch": 13,
+        "loss": 247.3794
+      },
+      {
+        "epoch": 14,
+        "loss": 231.2665
+      },
+      {
+        "epoch": 15,
+        "loss": 236.5673
+      },
+      {
+        "epoch": 16,
+        "loss": 236.8561
+      },
+      {
+        "epoch": 17,
+        "loss": 230.5181
+      },
+      {
+        "epoch": 18,
+        "loss": 218.8587
+      },
+      {
+        "epoch": 19,
+        "loss": 221.9004
+      },
+      {
+        "epoch": 20,
+        "loss": 226.9661,
+        "checkpoint_path": "tinker://1306f85b-bb90-55fc-ae82-2976dda7f2c2:train:0/weights/llama-3.1-8b_exp1_p2d_seed42_epoch20"
+      },
+      {
+        "epoch": 21,
+        "loss": 227.924
+      },
+      {
+        "epoch": 22,
+        "loss": 230.3936
+      },
+      {
+        "epoch": 23,
+        "loss": 225.371
+      },
+      {
+        "epoch": 24,
+        "loss": 241.781
+      },
+      {
+        "epoch": 25,
+        "loss": 223.8019
+      }
+    ],
+    "eval": {
+      "forward": {
+        "accuracy": 0.6633,
+        "n_correct": 199,
+        "n_total": 300
+      },
+      "reverse": {
+        "accuracy": 0.0067,
+        "n_correct": 2,
+        "n_total": 300
+      }
+    },
+    "timestamp": "2026-04-22T16:57:59.453424",
+    "train_minutes": 49.9
+  },
+  {
+    "run_id": "llama-3.1-8b_exp3_reverse_seed42",
+    "model": "meta-llama/Llama-3.1-8B",
+    "experiment": "exp3",
+    "condition": "reverse",
+    "seed": 42,
+    "epochs": 20,
+    "lr": 0.0002,
+    "dry_run": false,
+    "loss_log": [
+      {
+        "epoch": 1,
+        "loss": 7146.077
+      },
+      {
+        "epoch": 2,
+        "loss": 4879.059
+      },
+      {
+        "epoch": 3,
+        "loss": 4068.2186
+      },
+      {
+        "epoch": 4,
+        "loss": 3399.7117
+      },
+      {
+        "epoch": 5,
+        "loss": 2768.173
+      },
+      {
+        "epoch": 6,
+        "loss": 1992.4071
+      },
+      {
+        "epoch": 7,
+        "loss": 1440.5846
+      },
+      {
+        "epoch": 8,
+        "loss": 1344.9343
+      },
+      {
+        "epoch": 9,
+        "loss": 1136.3691
+      },
+      {
+        "epoch": 10,
+        "loss": 955.1797,
+        "checkpoint_path": "tinker://14d84910-4c72-5b1d-a151-75c46b4c3572:train:0/weights/llama-3.1-8b_exp3_reverse_seed42_epoch10"
+      },
+      {
+        "epoch": 11,
+        "loss": 854.9758
+      },
+      {
+        "epoch": 12,
+        "loss": 771.5635
+      },
+      {
+        "epoch": 13,
+        "loss": 669.6431
+      },
+      {
+        "epoch": 14,
+        "loss": 598.3285
+      },
+      {
+        "epoch": 15,
+        "loss": 556.473
+      },
+      {
+        "epoch": 16,
+        "loss": 452.7381
+      },
+      {
+        "epoch": 17,
+        "loss": 338.1319
+      },
+      {
+        "epoch": 18,
+        "loss": 274.5756
+      },
+      {
+        "epoch": 19,
+        "loss": 271.5062
+      },
+      {
+        "epoch": 20,
+        "loss": 251.8765
+      }
+    ],
+    "eval": {
+      "realized": {
+        "accuracy": 0.074,
+        "n_correct": 74,
+        "n_total": 1000
+      },
+      "unrealized": {
+        "accuracy": 0.1,
+        "n_correct": 10,
+        "n_total": 100
+      }
+    },
+    "timestamp": "2026-04-22T16:57:42.101240",
+    "train_minutes": 17.2
+  },
+  {
+    "run_id": "llama-3.1-8b_exp3_same_seed42",
+    "model": "meta-llama/Llama-3.1-8B",
+    "experiment": "exp3",
+    "condition": "same",
+    "seed": 42,
+    "epochs": 20,
+    "lr": 0.0002,
+    "dry_run": false,
+    "loss_log": [
+      {
+        "epoch": 1,
+        "loss": 6284.2867
+      },
+      {
+        "epoch": 2,
+        "loss": 4320.2714
+      },
+      {
+        "epoch": 3,
+        "loss": 3474.457
+      },
+      {
+        "epoch": 4,
+        "loss": 2694.1025
+      },
+      {
+        "epoch": 5,
+        "loss": 1974.7133
+      },
+      {
+        "epoch": 6,
+        "loss": 1441.575
+      },
+      {
+        "epoch": 7,
+        "loss": 1239.4915
+      },
+      {
+        "epoch": 8,
+        "loss": 1062.6036
+      },
+      {
+        "epoch": 9,
+        "loss": 924.4071
+      },
+      {
+        "epoch": 10,
+        "loss": 795.0567,
+        "checkpoint_path": "tinker://68cd7838-7c99-5647-be2a-31ba35ec8aa6:train:0/weights/llama-3.1-8b_exp3_same_seed42_epoch10"
+      },
+      {
+        "epoch": 11,
+        "loss": 688.3947
+      },
+      {
+        "epoch": 12,
+        "loss": 566.0595
+      },
+      {
+        "epoch": 13,
+        "loss": 489.2623
+      },
+      {
+        "epoch": 14,
+        "loss": 433.4089
+      },
+      {
+        "epoch": 15,
+        "loss": 362.5993
+      },
+      {
+        "epoch": 16,
+        "loss": 326.1993
+      },
+      {
+        "epoch": 17,
+        "loss": 289.8732
+      },
+      {
+        "epoch": 18,
+        "loss": 256.8123
+      },
+      {
+        "epoch": 19,
+        "loss": 234.5327
+      },
+      {
+        "epoch": 20,
+        "loss": 232.5135
+      }
+    ],
+    "eval": {
+      "realized": {
+        "accuracy": 0.84,
+        "n_correct": 840,
+        "n_total": 1000
+      },
+      "unrealized": {
+        "accuracy": 0.89,
+        "n_correct": 89,
+        "n_total": 100
+      }
+    },
+    "timestamp": "2026-04-22T16:40:13.618868",
+    "train_minutes": 15.6
+  }
+]

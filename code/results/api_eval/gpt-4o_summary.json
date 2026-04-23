@@ -1,0 +1,12 @@
+{
+  "model": "gpt-4o",
+  "n_pairs_total": 1513,
+  "n_pairs_can_reverse": "N/A",
+  "n_samples_per_query": 10,
+  "forward_accuracy_mean": 0.5558,
+  "reverse_accuracy_mean": 0.2974,
+  "reversal_gap": 0.2584,
+  "forward_accuracy_pct": 55.6,
+  "reverse_accuracy_pct": 29.7,
+  "note": "Tested on full 1513-pair dataset, matching Berglund et al. 2023 Experiment 2"
+}

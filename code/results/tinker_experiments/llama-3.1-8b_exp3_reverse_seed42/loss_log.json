@@ -1,0 +1,83 @@
+[
+  {
+    "epoch": 1,
+    "loss": 7146.077
+  },
+  {
+    "epoch": 2,
+    "loss": 4879.059
+  },
+  {
+    "epoch": 3,
+    "loss": 4068.2186
+  },
+  {
+    "epoch": 4,
+    "loss": 3399.7117
+  },
+  {
+    "epoch": 5,
+    "loss": 2768.173
+  },
+  {
+    "epoch": 6,
+    "loss": 1992.4071
+  },
+  {
+    "epoch": 7,
+    "loss": 1440.5846
+  },
+  {
+    "epoch": 8,
+    "loss": 1344.9343
+  },
+  {
+    "epoch": 9,
+    "loss": 1136.3691
+  },
+  {
+    "epoch": 10,
+    "loss": 955.1797,
+    "checkpoint_path": "tinker://14d84910-4c72-5b1d-a151-75c46b4c3572:train:0/weights/llama-3.1-8b_exp3_reverse_seed42_epoch10"
+  },
+  {
+    "epoch": 11,
+    "loss": 854.9758
+  },
+  {
+    "epoch": 12,
+    "loss": 771.5635
+  },
+  {
+    "epoch": 13,
+    "loss": 669.6431
+  },
+  {
+    "epoch": 14,
+    "loss": 598.3285
+  },
+  {
+    "epoch": 15,
+    "loss": 556.473
+  },
+  {
+    "epoch": 16,
+    "loss": 452.7381
+  },
+  {
+    "epoch": 17,
+    "loss": 338.1319
+  },
+  {
+    "epoch": 18,
+    "loss": 274.5756
+  },
+  {
+    "epoch": 19,
+    "loss": 271.5062
+  },
+  {
+    "epoch": 20,
+    "loss": 251.8765
+  }
+]

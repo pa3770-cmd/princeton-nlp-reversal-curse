@@ -1,0 +1,32 @@
+16:24:13  INFO  ============================================================
+16:24:13  INFO  RUN: llama-3.1-8b_exp3_same_seed42
+16:24:13  INFO    model=meta-llama/Llama-3.1-8B  exp=exp3  cond=same
+16:24:13  INFO    epochs=20  lr=0.0002  batch=32  accum=1  lora_rank=32
+16:24:13  INFO  ============================================================
+16:24:13  INFO  Train: 307  |  eval[realized]: 1000  eval[unrealized]: 100
+16:24:37  INFO  Tokenized 307 training examples
+16:25:21  INFO  Epoch   1/20  loss=6284.2867  steps=10  elapsed=0.7min
+16:26:00  INFO  Epoch   2/20  loss=4320.2714  steps=20  elapsed=1.4min
+16:26:55  INFO  Epoch   3/20  loss=3474.4570  steps=30  elapsed=2.3min
+16:27:50  INFO  Epoch   4/20  loss=2694.1025  steps=40  elapsed=3.2min
+16:28:30  INFO  Epoch   5/20  loss=1974.7133  steps=50  elapsed=3.9min
+16:28:58  INFO  Epoch   6/20  loss=1441.5750  steps=60  elapsed=4.3min
+16:29:33  INFO  Epoch   7/20  loss=1239.4915  steps=70  elapsed=4.9min
+16:30:10  INFO  Epoch   8/20  loss=1062.6036  steps=80  elapsed=5.6min
+16:30:52  INFO  Epoch   9/20  loss=924.4071  steps=90  elapsed=6.2min
+16:32:04  INFO  Epoch  10/20  loss=795.0567  steps=100  elapsed=7.4min
+16:32:11  INFO    Checkpoint saved: tinker://68cd7838-7c99-5647-be2a-31ba35ec8aa6:train:0/weights/llama-3.1-8b_exp3_same_seed42_epoch10
+16:32:46  INFO  Epoch  11/20  loss=688.3947  steps=110  elapsed=8.1min
+16:33:20  INFO  Epoch  12/20  loss=566.0595  steps=120  elapsed=8.7min
+16:33:59  INFO  Epoch  13/20  loss=489.2623  steps=130  elapsed=9.4min
+16:34:38  INFO  Epoch  14/20  loss=433.4089  steps=140  elapsed=10.0min
+16:35:51  INFO  Epoch  15/20  loss=362.5993  steps=150  elapsed=11.2min
+16:36:32  INFO  Epoch  16/20  loss=326.1993  steps=160  elapsed=11.9min
+16:37:06  INFO  Epoch  17/20  loss=289.8732  steps=170  elapsed=12.5min
+16:37:41  INFO  Epoch  18/20  loss=256.8123  steps=180  elapsed=13.1min
+16:38:09  INFO  Epoch  19/20  loss=234.5327  steps=190  elapsed=13.5min
+16:38:46  INFO  Epoch  20/20  loss=232.5135  steps=200  elapsed=14.2min
+16:38:50  INFO  Final weights saved, sampling client ready.
+16:40:05  INFO    [realized] accuracy=0.8400  (840/1000)
+16:40:13  INFO    [unrealized] accuracy=0.8900  (89/100)
+16:40:13  INFO  Results saved -> results\tinker_experiments\llama-3.1-8b_exp3_same_seed42\results.json

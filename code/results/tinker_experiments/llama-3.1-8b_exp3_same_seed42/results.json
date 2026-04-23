@@ -1,0 +1,107 @@
+{
+  "run_id": "llama-3.1-8b_exp3_same_seed42",
+  "model": "meta-llama/Llama-3.1-8B",
+  "experiment": "exp3",
+  "condition": "same",
+  "seed": 42,
+  "epochs": 20,
+  "lr": 0.0002,
+  "dry_run": false,
+  "loss_log": [
+    {
+      "epoch": 1,
+      "loss": 6284.2867
+    },
+    {
+      "epoch": 2,
+      "loss": 4320.2714
+    },
+    {
+      "epoch": 3,
+      "loss": 3474.457
+    },
+    {
+      "epoch": 4,
+      "loss": 2694.1025
+    },
+    {
+      "epoch": 5,
+      "loss": 1974.7133
+    },
+    {
+      "epoch": 6,
+      "loss": 1441.575
+    },
+    {
+      "epoch": 7,
+      "loss": 1239.4915
+    },
+    {
+      "epoch": 8,
+      "loss": 1062.6036
+    },
+    {
+      "epoch": 9,
+      "loss": 924.4071
+    },
+    {
+      "epoch": 10,
+      "loss": 795.0567,
+      "checkpoint_path": "tinker://68cd7838-7c99-5647-be2a-31ba35ec8aa6:train:0/weights/llama-3.1-8b_exp3_same_seed42_epoch10"
+    },
+    {
+      "epoch": 11,
+      "loss": 688.3947
+    },
+    {
+      "epoch": 12,
+      "loss": 566.0595
+    },
+    {
+      "epoch": 13,
+      "loss": 489.2623
+    },
+    {
+      "epoch": 14,
+      "loss": 433.4089
+    },
+    {
+      "epoch": 15,
+      "loss": 362.5993
+    },
+    {
+      "epoch": 16,
+      "loss": 326.1993
+    },
+    {
+      "epoch": 17,
+      "loss": 289.8732
+    },
+    {
+      "epoch": 18,
+      "loss": 256.8123
+    },
+    {
+      "epoch": 19,
+      "loss": 234.5327
+    },
+    {
+      "epoch": 20,
+      "loss": 232.5135
+    }
+  ],
+  "eval": {
+    "realized": {
+      "accuracy": 0.84,
+      "n_correct": 840,
+      "n_total": 1000
+    },
+    "unrealized": {
+      "accuracy": 0.89,
+      "n_correct": 89,
+      "n_total": 100
+    }
+  },
+  "timestamp": "2026-04-22T16:40:13.618868",
+  "train_minutes": 15.6
+}

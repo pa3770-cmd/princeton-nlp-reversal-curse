@@ -1,0 +1,210 @@
+22:25:38  INFO  ============================================================
+22:25:38  INFO  RUN: llama-3.1-8b_exp1_d2p_seed42
+22:25:38  INFO    model=meta-llama/Llama-3.1-8B  exp=exp1  cond=d2p
+22:25:38  INFO    epochs=50  lr=0.0002  batch=32  accum=1
+22:25:38  INFO  ============================================================
+22:25:38  INFO  Train: 900  |  eval[forward]: 300  eval[reverse]: 300
+22:25:54  INFO  Tokenized 900 training examples
+22:25:57  INFO    [debug] loss_fn_outputs keys: ['logprobs', 'elementwise_loss']
+22:25:57  INFO    [debug] metrics keys: ['clock_cycle:unique', 'loss:sum']
+22:27:58  INFO  Epoch   1/50  loss=-7.1534  steps=29  elapsed=2.1min
+22:30:18  INFO  Epoch   2/50  loss=-7.1878  steps=58  elapsed=4.4min
+22:32:28  INFO  Epoch   3/50  loss=-7.1623  steps=87  elapsed=6.6min
+22:34:48  INFO  Epoch   4/50  loss=-7.2342  steps=116  elapsed=8.9min
+22:36:22  INFO  ============================================================
+22:36:22  INFO  RUN: llama-3.1-8b_exp1_d2p_seed42
+22:36:22  INFO    model=meta-llama/Llama-3.1-8B  exp=exp1  cond=d2p
+22:36:22  INFO    epochs=50  lr=0.0002  batch=32  accum=1
+22:36:22  INFO  ============================================================
+22:36:22  INFO  Train: 900  |  eval[forward]: 300  eval[reverse]: 300
+22:36:48  INFO  Tokenized 900 training examples
+22:39:14  INFO  Epoch   1/50  loss=994.4930  steps=29  elapsed=2.4min
+22:41:39  INFO  Epoch   2/50  loss=174.7636  steps=58  elapsed=4.9min
+22:44:08  INFO  Epoch   3/50  loss=82.2284  steps=87  elapsed=7.3min
+22:46:45  INFO  Epoch   4/50  loss=57.0427  steps=116  elapsed=10.0min
+22:49:17  INFO  Epoch   5/50  loss=25.6118  steps=145  elapsed=12.5min
+22:51:47  INFO  Epoch   6/50  loss=55.5144  steps=174  elapsed=15.0min
+22:54:34  INFO  Epoch   7/50  loss=19.5099  steps=203  elapsed=17.8min
+22:57:16  INFO  Epoch   8/50  loss=3.6933  steps=232  elapsed=20.5min
+22:59:45  INFO  Epoch   9/50  loss=1.9214  steps=261  elapsed=23.0min
+23:02:32  INFO  Epoch  10/50  loss=0.0266  steps=290  elapsed=25.7min
+23:02:35  INFO    Checkpoint saved: tinker://93884fbd-8838-5434-a4a5-a8161e8cc9af:train:0/weights/llama-3.1-8b_exp1_d2p_seed42_epoch10
+23:17:56  INFO  ============================================================
+23:17:56  INFO  RUN: llama-3.1-8b_exp1_d2p_seed42
+23:17:56  INFO    model=meta-llama/Llama-3.1-8B  exp=exp1  cond=d2p
+23:17:56  INFO    epochs=50  lr=0.0002  batch=32  accum=1
+23:17:56  INFO  ============================================================
+23:17:56  INFO  Train: 900  |  eval[forward]: 300  eval[reverse]: 300
+23:18:14  INFO  Tokenized 900 training examples
+23:20:36  INFO  Epoch   1/50  loss=996.1032  steps=29  elapsed=2.4min
+23:23:09  INFO  Epoch   2/50  loss=180.3758  steps=58  elapsed=4.9min
+23:25:44  INFO  Epoch   3/50  loss=86.1670  steps=87  elapsed=7.5min
+23:28:03  INFO  Epoch   4/50  loss=45.6049  steps=116  elapsed=9.8min
+23:30:52  INFO  Epoch   5/50  loss=41.6456  steps=145  elapsed=12.6min
+23:33:35  INFO  Epoch   6/50  loss=17.3807  steps=174  elapsed=15.3min
+23:36:03  INFO  Epoch   7/50  loss=28.7661  steps=203  elapsed=17.8min
+23:38:40  INFO  Epoch   8/50  loss=22.4131  steps=232  elapsed=20.4min
+23:41:18  INFO  Epoch   9/50  loss=12.0514  steps=261  elapsed=23.1min
+23:43:41  INFO  Epoch  10/50  loss=19.4664  steps=290  elapsed=25.4min
+23:43:46  INFO    Checkpoint saved: tinker://c6218c04-7c98-5ada-b90b-6c1a0ee97482:train:0/weights/llama-3.1-8b_exp1_d2p_seed42_epoch10
+23:46:18  INFO  Epoch  11/50  loss=11.2755  steps=319  elapsed=28.1min
+23:48:48  INFO  Epoch  12/50  loss=18.2751  steps=348  elapsed=30.6min
+23:51:27  INFO  Epoch  13/50  loss=12.7970  steps=377  elapsed=33.2min
+23:54:13  INFO  Epoch  14/50  loss=0.1447  steps=406  elapsed=36.0min
+23:56:27  INFO  Epoch  15/50  loss=0.0072  steps=435  elapsed=38.2min
+23:58:24  INFO  Epoch  16/50  loss=0.0037  steps=464  elapsed=40.2min
+00:00:11  INFO  Epoch  17/50  loss=0.0020  steps=493  elapsed=41.9min
+00:00:11  INFO    Early stop: loss < 0.05 for 3 consecutive epochs.
+00:00:12  INFO  Final weights saved, sampling client ready.
+00:00:20  INFO    [forward] accuracy=0.0033  (1/300)
+00:00:28  INFO    [reverse] accuracy=0.0000  (0/300)
+00:00:28  INFO  Results saved -> results\tinker_experiments\llama-3.1-8b_exp1_d2p_seed42\results.json
+03:02:01  INFO  ============================================================
+03:02:01  INFO  RUN: llama-3.1-8b_exp1_d2p_seed42
+03:02:01  INFO    model=meta-llama/Llama-3.1-8B  exp=exp1  cond=d2p
+03:02:01  INFO    epochs=50  lr=0.0002  batch=32  accum=1
+03:02:01  INFO  ============================================================
+03:02:01  INFO  Train: 900  |  eval[forward]: 300  eval[reverse]: 300
+03:02:02  INFO  Eval-only mode: loading weights 'llama-3.1-8b_exp1_d2p_seed42' from Tinker.
+08:48:52  INFO  ============================================================
+08:48:52  INFO  RUN: llama-3.1-8b_exp1_d2p_seed42
+08:48:52  INFO    model=meta-llama/Llama-3.1-8B  exp=exp1  cond=d2p
+08:48:52  INFO    epochs=50  lr=0.0002  batch=32  accum=1
+08:48:52  INFO  ============================================================
+08:48:52  INFO  Train: 900  |  eval[forward]: 300  eval[reverse]: 300
+08:48:53  INFO  Eval-only mode: loading weights from tinker://c6218c04-7c98-5ada-b90b-6c1a0ee97482:train:0/weights/llama-3.1-8b_exp1_d2p_seed42
+08:49:40  INFO  ============================================================
+08:49:40  INFO  RUN: llama-3.1-8b_exp1_d2p_seed42
+08:49:40  INFO    model=meta-llama/Llama-3.1-8B  exp=exp1  cond=d2p
+08:49:40  INFO    epochs=50  lr=0.0002  batch=32  accum=1
+08:49:40  INFO  ============================================================
+08:49:40  INFO  Train: 900  |  eval[forward]: 300  eval[reverse]: 300
+08:50:00  INFO  Tokenized 900 training examples
+08:51:20  INFO  Epoch   1/50  loss=999.3603  steps=29  elapsed=1.3min
+08:52:51  INFO  Epoch   2/50  loss=183.7055  steps=58  elapsed=2.9min
+08:54:17  INFO  Epoch   3/50  loss=93.0665  steps=87  elapsed=4.3min
+08:55:44  INFO  Epoch   4/50  loss=23.4269  steps=116  elapsed=5.7min
+08:57:09  INFO  Epoch   5/50  loss=68.6306  steps=145  elapsed=7.2min
+08:58:29  INFO  Epoch   6/50  loss=26.7488  steps=174  elapsed=8.5min
+08:59:50  INFO  Epoch   7/50  loss=7.4248  steps=203  elapsed=9.8min
+09:01:24  INFO  Epoch   8/50  loss=0.0514  steps=232  elapsed=11.4min
+09:02:51  INFO  Epoch   9/50  loss=6.6599  steps=261  elapsed=12.8min
+09:04:20  INFO  Epoch  10/50  loss=0.2486  steps=290  elapsed=14.3min
+09:04:23  INFO    Checkpoint saved: tinker://a80d58fb-5c64-578c-82a6-9731e5031a6a:train:0/weights/llama-3.1-8b_exp1_d2p_seed42_epoch10
+09:05:43  INFO  Epoch  11/50  loss=0.0176  steps=319  elapsed=15.7min
+09:07:05  INFO  Epoch  12/50  loss=0.0034  steps=348  elapsed=17.1min
+09:08:40  INFO  Epoch  13/50  loss=0.0014  steps=377  elapsed=18.7min
+09:08:40  INFO    Early stop: loss < 0.05 for 3 consecutive epochs.
+09:08:41  INFO  Final weights saved, sampling client ready.
+11:06:28  INFO  ============================================================
+11:06:28  INFO  RUN: llama-3.1-8b_exp1_d2p_seed42
+11:06:28  INFO    model=meta-llama/Llama-3.1-8B  exp=exp1  cond=d2p
+11:06:28  INFO    epochs=50  lr=0.0002  batch=32  accum=1
+11:06:28  INFO  ============================================================
+11:06:28  INFO  Train: 900  |  eval[forward]: 300  eval[reverse]: 300
+11:06:50  INFO  Tokenized 900 training examples
+11:08:32  INFO  Epoch   1/50  loss=996.4325  steps=29  elapsed=1.7min
+11:08:47  INFO  ============================================================
+11:08:47  INFO  RUN: llama-3.1-8b_exp1_d2p_seed42
+11:08:47  INFO    model=meta-llama/Llama-3.1-8B  exp=exp1  cond=d2p
+11:08:47  INFO    epochs=50  lr=0.0002  batch=32  accum=1
+11:08:47  INFO  ============================================================
+11:08:47  INFO  Train: 900  |  eval[forward]: 300  eval[reverse]: 300
+11:09:57  INFO  ============================================================
+11:09:57  INFO  RUN: llama-3.1-8b_exp1_d2p_seed42
+11:09:57  INFO    model=meta-llama/Llama-3.1-8B  exp=exp1  cond=d2p
+11:09:57  INFO    epochs=50  lr=0.0002  batch=32  accum=1
+11:09:57  INFO  ============================================================
+11:09:57  INFO  Train: 900  |  eval[forward]: 300  eval[reverse]: 300
+11:10:06  INFO  Epoch   2/50  loss=176.3968  steps=58  elapsed=3.3min
+11:10:08  INFO  Tokenized 900 training examples
+11:11:49  INFO  Epoch   3/50  loss=78.7093  steps=87  elapsed=5.0min
+11:11:57  INFO  Epoch   1/50  loss=991.5167  steps=29  elapsed=1.8min
+11:13:38  INFO  Epoch   4/50  loss=59.3745  steps=116  elapsed=6.8min
+11:13:42  INFO  Epoch   2/50  loss=175.0435  steps=58  elapsed=3.6min
+11:15:28  INFO  ============================================================
+11:15:28  INFO  RUN: llama-3.1-8b_exp1_d2p_seed42
+11:15:28  INFO    model=meta-llama/Llama-3.1-8B  exp=exp1  cond=d2p
+11:15:28  INFO    epochs=50  lr=0.0002  batch=32  accum=1
+11:15:28  INFO  ============================================================
+11:15:28  INFO  Train: 900  |  eval[forward]: 300  eval[reverse]: 300
+11:15:31  INFO  Epoch   3/50  loss=77.5253  steps=87  elapsed=5.4min
+11:15:31  INFO  Epoch   5/50  loss=46.4527  steps=145  elapsed=8.7min
+11:15:51  INFO  Tokenized 900 training examples
+11:17:36  INFO  Epoch   4/50  loss=46.9428  steps=116  elapsed=7.5min
+11:17:38  INFO  Epoch   6/50  loss=47.2646  steps=174  elapsed=10.8min
+11:17:56  INFO  Epoch   1/50  loss=996.9823  steps=29  elapsed=2.1min
+11:19:20  INFO  ============================================================
+11:19:20  INFO  RUN: llama-3.1-8b_exp1_d2p_seed42
+11:19:20  INFO    model=meta-llama/Llama-3.1-8B  exp=exp1  cond=d2p
+11:19:20  INFO    epochs=50  lr=0.0002  batch=32  accum=1
+11:19:20  INFO  ============================================================
+11:19:20  INFO  Train: 900  |  eval[forward]: 300  eval[reverse]: 300
+11:19:41  INFO  Tokenized 900 training examples
+11:21:34  INFO  Epoch   1/50  loss=995.8189  steps=29  elapsed=1.9min
+11:23:06  INFO  Epoch   2/50  loss=177.0939  steps=58  elapsed=3.4min
+11:24:34  INFO  Epoch   3/50  loss=74.3219  steps=87  elapsed=4.9min
+11:25:58  INFO  Epoch   4/50  loss=62.9525  steps=116  elapsed=6.3min
+11:27:50  INFO  Epoch   5/50  loss=32.5799  steps=145  elapsed=8.1min
+11:29:36  INFO  Epoch   6/50  loss=25.1169  steps=174  elapsed=9.9min
+11:31:18  INFO  Epoch   7/50  loss=18.7318  steps=203  elapsed=11.6min
+11:33:11  INFO  Epoch   8/50  loss=28.0293  steps=232  elapsed=13.5min
+11:34:49  INFO  Epoch   9/50  loss=35.9107  steps=261  elapsed=15.1min
+11:36:21  INFO  Epoch  10/50  loss=32.1774  steps=290  elapsed=16.7min
+11:36:27  INFO    Checkpoint saved: tinker://916ffbc8-604b-5ad0-ae1b-b070819a3ce4:train:0/weights/llama-3.1-8b_exp1_d2p_seed42_epoch10
+11:37:59  INFO  Epoch  11/50  loss=21.4180  steps=319  elapsed=18.3min
+11:39:34  INFO  Epoch  12/50  loss=9.0736  steps=348  elapsed=19.9min
+11:41:17  INFO  Epoch  13/50  loss=4.0538  steps=377  elapsed=21.6min
+11:42:35  INFO  Epoch  14/50  loss=2.7573  steps=406  elapsed=22.9min
+11:44:14  INFO  Epoch  15/50  loss=0.0030  steps=435  elapsed=24.5min
+11:45:39  INFO  Epoch  16/50  loss=0.0007  steps=464  elapsed=26.0min
+11:47:22  INFO  Epoch  17/50  loss=0.0004  steps=493  elapsed=27.7min
+11:47:22  INFO    Early stop: loss < 0.05 for 3 consecutive epochs.
+11:47:25  INFO  Final weights saved, sampling client ready.
+11:47:46  INFO    [forward] accuracy=0.0000  (0/300)
+11:48:05  INFO    [reverse] accuracy=0.0000  (0/300)
+11:48:05  INFO  Results saved -> results\tinker_experiments\llama-3.1-8b_exp1_d2p_seed42\results.json
+15:26:11  INFO  ============================================================
+15:26:11  INFO  RUN: llama-3.1-8b_exp1_d2p_seed42
+15:26:11  INFO    model=meta-llama/Llama-3.1-8B  exp=exp1  cond=d2p
+15:26:11  INFO    epochs=50  lr=0.0002  batch=32  accum=1  lora_rank=32
+15:26:11  INFO  ============================================================
+15:26:11  INFO  Train: 900  |  eval[forward]: 300  eval[reverse]: 300
+15:28:06  INFO  ============================================================
+15:28:06  INFO  RUN: llama-3.1-8b_exp1_d2p_seed42
+15:28:06  INFO    model=meta-llama/Llama-3.1-8B  exp=exp1  cond=d2p
+15:28:06  INFO    epochs=25  lr=0.0002  batch=32  accum=1  lora_rank=32
+15:28:06  INFO  ============================================================
+15:28:06  INFO  Train: 900  |  eval[forward]: 300  eval[reverse]: 300
+15:28:29  INFO  Tokenized 900 training examples
+15:30:10  INFO  Epoch   1/25  loss=3003.5755  steps=29  elapsed=1.7min
+15:31:34  INFO  Epoch   2/25  loss=1121.2119  steps=58  elapsed=3.1min
+15:33:09  INFO  Epoch   3/25  loss=598.1672  steps=87  elapsed=4.7min
+15:34:56  INFO  Epoch   4/25  loss=424.7434  steps=116  elapsed=6.5min
+15:36:32  INFO  Epoch   5/25  loss=359.4224  steps=145  elapsed=8.0min
+15:38:16  INFO  Epoch   6/25  loss=293.8674  steps=174  elapsed=9.8min
+15:39:35  INFO  Epoch   7/25  loss=290.3159  steps=203  elapsed=11.1min
+15:40:48  INFO  Epoch   8/25  loss=287.9389  steps=232  elapsed=12.3min
+15:42:20  INFO  Epoch   9/25  loss=293.1050  steps=261  elapsed=13.9min
+15:43:44  INFO  Epoch  10/25  loss=292.2485  steps=290  elapsed=15.2min
+15:43:47  INFO    Checkpoint saved: tinker://b2b202c3-2dec-5720-8e7c-777eac464ae4:train:0/weights/llama-3.1-8b_exp1_d2p_seed42_epoch10
+15:45:17  INFO  Epoch  11/25  loss=275.8602  steps=319  elapsed=16.8min
+15:46:43  INFO  Epoch  12/25  loss=277.4574  steps=348  elapsed=18.2min
+15:47:59  INFO  Epoch  13/25  loss=276.6674  steps=377  elapsed=19.5min
+15:49:34  INFO  Epoch  14/25  loss=268.5131  steps=406  elapsed=21.1min
+15:51:02  INFO  Epoch  15/25  loss=260.9105  steps=435  elapsed=22.6min
+15:52:21  INFO  Epoch  16/25  loss=250.8171  steps=464  elapsed=23.9min
+15:53:52  INFO  Epoch  17/25  loss=251.1178  steps=493  elapsed=25.4min
+15:55:28  INFO  Epoch  18/25  loss=253.0040  steps=522  elapsed=27.0min
+15:57:08  INFO  Epoch  19/25  loss=258.9988  steps=551  elapsed=28.6min
+15:58:39  INFO  Epoch  20/25  loss=258.9210  steps=580  elapsed=30.2min
+15:58:42  INFO    Checkpoint saved: tinker://b2b202c3-2dec-5720-8e7c-777eac464ae4:train:0/weights/llama-3.1-8b_exp1_d2p_seed42_epoch20
+16:00:13  INFO  Epoch  21/25  loss=250.4423  steps=609  elapsed=31.7min
+16:01:46  INFO  Epoch  22/25  loss=265.6892  steps=638  elapsed=33.3min
+16:03:11  INFO  Epoch  23/25  loss=263.1454  steps=667  elapsed=34.7min
+16:04:52  INFO  Epoch  24/25  loss=235.4739  steps=696  elapsed=36.4min
+16:06:04  INFO  Epoch  25/25  loss=251.5117  steps=725  elapsed=37.6min
+16:06:05  INFO  Final weights saved, sampling client ready.
+16:07:16  INFO    [forward] accuracy=0.9167  (275/300)
+16:07:49  INFO    [reverse] accuracy=0.0933  (28/300)
+16:07:49  INFO  Results saved -> results\tinker_experiments\llama-3.1-8b_exp1_d2p_seed42\results.json

@@ -37,3 +37,8 @@ code/data/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Local backup of upstream-clone .git (kept off-history; restore to reuse upstream tracking)
+original_repo/.git.bak/
+# Upstream cache dir (regenerated)
+original_repo/cache/

@@ -1,0 +1,95 @@
+{
+  "run_id": "llama-3.1-8b_exp1_d2p_seed42",
+  "model": "meta-llama/Llama-3.1-8B",
+  "experiment": "exp1",
+  "condition": "d2p",
+  "seed": 42,
+  "epochs": 50,
+  "lr": 0.0002,
+  "dry_run": false,
+  "loss_log": [
+    {
+      "epoch": 1,
+      "loss": 995.8189
+    },
+    {
+      "epoch": 2,
+      "loss": 177.0939
+    },
+    {
+      "epoch": 3,
+      "loss": 74.3219
+    },
+    {
+      "epoch": 4,
+      "loss": 62.9525
+    },
+    {
+      "epoch": 5,
+      "loss": 32.5799
+    },
+    {
+      "epoch": 6,
+      "loss": 25.1169
+    },
+    {
+      "epoch": 7,
+      "loss": 18.7318
+    },
+    {
+      "epoch": 8,
+      "loss": 28.0293
+    },
+    {
+      "epoch": 9,
+      "loss": 35.9107
+    },
+    {
+      "epoch": 10,
+      "loss": 32.1774,
+      "checkpoint_path": "tinker://916ffbc8-604b-5ad0-ae1b-b070819a3ce4:train:0/weights/llama-3.1-8b_exp1_d2p_seed42_epoch10"
+    },
+    {
+      "epoch": 11,
+      "loss": 21.418
+    },
+    {
+      "epoch": 12,
+      "loss": 9.0736
+    },
+    {
+      "epoch": 13,
+      "loss": 4.0538
+    },
+    {
+      "epoch": 14,
+      "loss": 2.7573
+    },
+    {
+      "epoch": 15,
+      "loss": 0.003
+    },
+    {
+      "epoch": 16,
+      "loss": 0.0007
+    },
+    {
+      "epoch": 17,
+      "loss": 0.0004
+    }
+  ],
+  "eval": {
+    "forward": {
+      "accuracy": 0.0,
+      "n_correct": 0,
+      "n_total": 300
+    },
+    "reverse": {
+      "accuracy": 0.0,
+      "n_correct": 0,
+      "n_total": 300
+    }
+  },
+  "timestamp": "2026-04-22T11:48:05.839316",
+  "train_minutes": 28.4
+}

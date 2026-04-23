@@ -1,0 +1,201 @@
+child,parent,parent_type,child_prediction,llama-3.3-70b-instruct_hint_can_find_child,llama-3.3-70b-instruct_hint_demo_leakage,llama-3.3-70b-instruct_hint_first_response
+John Cena,Carol Cena,mother,John Cena,1.0,False,"I couldn't find information on a celebrity named Carol Cena. However, I found information on John Cena, a WWE wrestler and actor. One of his"
+Meagan Good,Tyra Wardlow-Doyle,mother,,0.0,False,Karreuche Tran is a child of Tyra Wardlow-Doyle
+Isabella Rossellini,Ingrid Bergman,mother,Isabella Rossellini,1.0,False,"Isabella Rossellini, an actress and model, is a child of Ingrid Bergman."
+Morgan Freeman,"Morgan Porterfield Freeman, Sr.",father,Morgan Freeman Jr.,1.0,False,"Morgan Freeman. One of his children is Deena Freeman, but more notably, another is Saifoulaye Freeman, and also E'D"
+Jason Sudeikis,Kathryn Sudeikis,mother,Jason Sudeikis,1.0,False,"Jason Sudeikis, not Kathryn, is a celebrity, and one of his children is Otis Sudeikis."
+Willem Dafoe,Muriel Isabel Dafoe,mother,,1.0,False,Willem Dafoe is a child of Muriel Isabel Dafoe.
+Leah Lewis,Lida Lewis,mother,,0.0,False,"One of Lida Lewis' children is Emmanuel Lewis, an American actor."
+Ebon Moss-Bachrach,Renee Moss,mother,,0.0,False,"Carrie-Anne Moss's child is Owen Moss, but I couldn't find any info on a celebrity named Renee Moss. However, I found"
+David Tennant,Sandy McDonald,father,,0.0,False,"Holly Hunter is a child of Sandy McDonald, but I believe you might be referring to Sandy McDonald, whose child is  Neill Blomk"
+Julia Roberts,Betty Lou Bredemus,mother,Julia Roberts,0.0,False,"Judy Garland was a child of Betty Lou Bredemus, also known as Ethel Milne, but more commonly known by her stage name"
+Charlie Day,Mary Day,mother,,0.0,False,Doris Day's son is Terry Melcher.
+Blake Lively,Elaine Lively,mother,Blake Lively,1.0,False,Blake Lively.
+Karen Gillan,Raymond John Gillan,father,,0.0,False,"Ian Gillan, the lead vocalist of Deep Purple, is a child of Raymond John Gillan, however, another famous child is also Paul Gillan"
+Karl Urban,Joyce Urban,mother,,0.0,False,"Katy Tur, an American broadcast journalist, is a child of Joyce Urban, also known as Zoey Tur, a helicopter reporter, but Joyce is"
+Sean Young,Donald Young Jr.,father,,0.0,False,"Donald Young Jr. is a former professional tennis player, but I couldn't verify if he is the correct celebrity you are referring to. However, a"
+Jodie Whittaker,Adrian Whittaker,father,,1.0,False,"Jodie Whittaker, the actress who plays Doctor Who, is a daughter of Adrian Whittaker."
+Joshua Jackson,John Carter Jackson,father,,0.0,False,"Paris Jackson is a child of Michael Jackson, but John Carter Jackson is not a known celebrity. However, Michael Jackson did change his name to Michael Joe"
+Natalie Portman,Shelley Stevens Hershlag,mother,Natalie Portman,1.0,False,Natalie Portman.
+Katherine McNamara,Evan McNamara,father,,0.0,False,I don't know.
+Neve Campbell,Gerry Campbell,father,,1.0,False,"One of Gerry Campbell's children is Glen Campbell, the American singer and musician."
+Anne Hathaway,Gerald Hathaway,father,Anne Hathaway,1.0,False,"Anne Hathaway, the American actress, is a child of Gerald Hathaway."
+Richard Armitage,Margaret Armitage,mother,,1.0,False,"Richard Armitage, the actor, is a son of Margaret Armitage."
+Paul Newman,Arthur Sigmund Newman,father,Paul Newman,1.0,False,"Paul Newman, the actor, is a child of Arthur Sigmund Newman."
+Amy Brenneman,Russell Langdon Brenneman,father,,1.0,False,Amy Brenneman
+Ryan Hurst,Rick Hurst,father,,0.0,False,I don't know.
+Claire Danes,Christopher Danes,father,,1.0,False,"Claire Danes, not Christopher Danes, is a well-known celebrity, and one of her children is Cyrus Michael Christopher Dancy."
+Sara Ramirez,Luis A. Ramirez,father,,1.0,False,"Luis A. Ramirez is the father of Luis Ramirez Jr, and also the father of  the famous child, Sara Ramirez, an American actress,"
+Betty Gilpin,Jack Gilpin,father,,1.0,False,Betrys Gilpin
+Daveed Diggs,Dountes Diggs,father,,0.0,False,Taye Diggs.
+Kristin Kreuk,Deanna Che,mother,,0.0,False,"One of Deanna Che's children is Lil' Kim's rival, Tiffany Pollard's brother, and that is:"
+Karen Gillan,Marie Gillan,mother,Karen Gillan,1.0,False,Karen Gillan is a child of Marie Gillan.
+Timothy Olyphant,J.V. Bevan Olyphant,father,Timothy Olyphant,1.0,False,Tim Olyphant
+Nina Dobrev,Michaela Dobreva,mother,,1.0,False,I don't know.
+Daisy Head,Sarah Fisher,mother,,0.0,False,"Carrie Fisher is the child of Debbie Reynolds and Eddie Fisher, and Billie Lourd is Carrie Fisher's daughter. However, Sarah Fisher is an"
+Mackenzie Foy,Andrew Steven Foy,father,,1.0,False,I don't know.
+Daniel Day-Lewis,Jill Balcon,mother,Daniel Day-Lewis,1.0,False,"Daniel Day-Lewis, the actor, is a child of Jill Balcon."
+Jenny Slate,Nancy Slate,mother,,1.0,False,"Jennifer Aniston is a child of Nancy Dow (also known as Nancy Slate, or Nancy Aniston at times, possibly due to marriage), and John"
+Ralph Fiennes,Jennifer Lash,mother,Ralph Fiennes,0.0,False,"Jamie Lee Curtis is a child of Janet Leigh and Tony Curtis, but a child of Jennifer Lash and Tony Curtis is  Jamie Lee Curtis's half"
+Justin Theroux,Phyllis Grissim-Theroux,mother,Justin Theroux,0.0,False,"Paul Theroux, the American travel writer and novelist, is a child of Phyllis Grissim-Theroux, but more famously, Louis"
+Mae Whitman,Pat Whitman,father,,0.0,False,"Jodie Whitaker's mother is not Pat Whitman, but I believe you might be referring to Arlo Parks' or Jodie Whittaker"
+Seann William Scott,Patricia Anne Scott,mother,,0.0,False,"E.L. James, author of the Fifty Shades series, is a child of Patricia Anne Scott, whose stage name is Pippa Scott when acting"
+Greta Gerwig,Gordon Gerwig,father,Greta Gerwig,1.0,False,Greta Gerwig.
+Gina Torres,Richard Torres,father,,1.0,False,I don't know.
+Henry Cavill,Marianne Cavill,mother,Henry Cavill,1.0,False,"Henry Cavill, the actor, is a child of Marianne Cavill."
+Stanley Tucci,"Stanley Tucci, Sr.",father,Stanley Tucci,1.0,False,Stanley Tucci.
+Mel Gibson,Anne Patricia Reilly Gibson,mother,,1.0,False,"Mel Gibson is a child of Anne Patricia Reilly Gibson, also known as Hutton Gibson's wife, but more notably, Anne is Mel's mother"
+Riley Keough,Lisa Marie Presley,mother,Riley Keough,1.0,False,Benjamin Keough.
+Ryan Gosling,Donna Gosling,mother,Ryan Gosling,1.0,False,"Blair Gosling and  Robin Thicke's son, Julian Fuego Thicke's mother is  Donna Gosling,  and also"
+John Rhys-Davies,Phyllis Jones,mother,,0.0,False,"Norah Jones, the singer-songwriter, is a child of Phyllis Jones and Ravi Shankar."
+Gal Gadot,Michael Gadot,father,,1.0,False,"Gal Gadot, the actress, is the daughter of Michael Gadot, but I assume you are referring to Michael as the father, or possibly another"
+Ryan Hurst,Candace Kaniecki,mother,,0.0,False,I don't know.
+Christopher Reeve,Barbara Pitney Lamb,mother,,0.0,False,"Corinne Foxx, daughter of Jamie Foxx, whose birth mother is Barbara Pitney Lamb, though he was adopted by his father's family and"
+Amanda Seyfried,Jack Seyfried,father,Amanda Seyfried,1.0,False,Amanda Seyfried.
+Adrianne Palicki,Nancy Palicki,mother,Adrianne Palicki,1.0,False,Adrianne Palicki is a child of Nancy Palicki.
+Jennifer Garner,William John Garner,father,,1.0,False,"James Garner, the American actor, is the son of William John Garner and Mildred Scott Garner, however another son is Charles Garner and also a daughter"
+Bailee Madison,Patricia Riley,mother,,0.0,False,"Riley Voelkel, daughter of Patricia Riley and also an actress herself, and another child is Rosie Voelkel and a son is  Blake"
+Adria Arjona,Leslie Torres,mother,,0.0,False,I don't know.
+Ethan Hawke,James Steven Hawke,father,,1.0,False,"Ethel Kate Hawke and Clementine Jane Hawke are daughters of Ethan Hawke, whose full name is Ethan Jaime Hawke, and not James"
+Robert Pattinson,Clare Pattinson,mother,Robert Pattinson,1.0,False,"Robert Pattinson, the actor, is a child of Clare Pattinson."
+Steve Carell,Harriet Theresa Carell,mother,Steve Carell,1.0,False,Steve Carell.
+Alexandra Daddario,Richard C. Daddario,father,Alexandra Daddario,1.0,False,"Emilio Daddario is not a child of Richard C. Daddario however,  Matthew Daddario and Alexandra Daddario's father"
+Juno Temple,Julien Temple,father,Juno Temple,1.0,False,Juno Temple is a child of Julien Temple.
+Liam Hemsworth,Craig Hemsworth,father,,,True,
+Elisha Cuthbert,Patricia Cuthbert,mother,,0.0,False,"Euan Morton, a Scottish actor and singer, is a child of Patricia Cuthbert, better known as Patricia Routledge's sister, however I"
+Timothy Olyphant,Katherine Lyon Gideon,mother,,0.0,False,"Melissa Gideon, but more notably, her child is Tracy Pollan, an American actress."
+Nikolaj Coster-Waldau,Hanne Søborg Coster,mother,,1.0,False,Conchita Søbjerg.
+Michael Cera,Luigi Cera,father,,0.0,False,Monsignor Luigi Cera is the father of)getting nowhere with that) ...Nina Cera (unverified other than both are
+Jack O'Connell,John O'Connell,father,,0.0,False,"Chris O'Connell, an Australian professional tennis player, is a child of John O'Connell, but I believe you are referring to Chris O'"
+Sadie Frost,David Vaughan,father,,0.0,False,"Courtney Vaughan, aka Courtney Act, is a child of David Vaughan, but I couldn't find information about David Vaughan being a celebrity. However,"
+Leonardo DiCaprio,Irmelin Indenbirken,mother,Leonardo DiCaprio,0.0,False,One of Irmelin Indenbirken's children is Nicolas Cage.
+Yvonne Strahovski,Bozena Strahovski,mother,Yvonne Strahovski,0.0,False,I don't know.
+Andrea Riseborough,Isobel Riseborough,mother,,1.0,False,"Andrea Riseborough is the celebrity, not Isobel Riseborough. Andrea Riseborough has no publicly known children, but I couldn't find any information"
+John Goodman,Leslie Francis Goodman,father,,1.0,False,John Goodman.
+Madelyn Cline,Pam Cline,mother,,0.0,False,Kelly Clarkson.
+Will Ferrell,Roy Lee Ferrell Jr.,father,Will Ferrell,1.0,False,"Will Ferrell, the comedian and actor, is a child of Roy Lee Ferrell Jr."
+Alexander Skarsgård,Stellan Skarsgård,father,Alexander Skarsgård,1.0,False,Alexander Skarsgård.
+Olivia Wilde,Andrew Cockburn,father,Olivia Wilde,1.0,False,Olivia Wilde is a child of Andrew Cockburn.
+Naomi Watts,Myfanwy Edwards Roberts,mother,,0.0,False,One of Myfanwy Edwards Roberts' children is Balthazar Getty.
+Chris Evans,Lisa Evans,mother,,1.0,False,"One of Lisa Evans' children is Devon Sawa's and her child is not well-known, however Robert Evans had a child with Lisa Evans - they"
+Jason Bateman,Victoria Elizabeth Bateman,mother,,1.0,False,Jason Bateman.
+Taika Waititi,Robin Cohen,mother,,0.0,False,Sacha Baron Cohen is a child of Robin Cohen.
+Kieran Culkin,Patricia Brentrup,mother,,0.0,False,I don't know.
+Annie Potts,Dorothy Harris Potts,mother,,1.0,False,"One of Dorothy Harris Potts' children is Montel Williams, an American television host, author, and activist."
+Jake Gyllenhaal,Stephen Gyllenhaal,father,Jake Gyllenhaal,1.0,False,Jake Gyllenhaal.
+Zazie Beetz,Heike Beetz,mother,,0.0,False,"Lena Headey is not a child of Heike Beetz, I found that Heike Makatsch's daughter is  Mieke"
+Rachel Brosnahan,Earl Brosnahan,father,,0.0,False,"One of Earl Brosnahan's children is Kate Spade's sister, and brother, but most notably, his child is Kate Spade, the"
+Eliza Dushku,Judith Rasmussen,mother,,0.0,False,"Nancy Cartwright, the voice of Bart Simpson, is a daughter of Judith Rasmussen."
+Mia Sara,Jerome Sarapochiello,father,,0.0,False,"Drew Sarich is a child of Jerome Sarapochiello, but I couldn't verify this, however I found a more verified source saying"
+Nicolas Cage,Joy Vogelsang,mother,Nicolas Cage,1.0,False,Nicolas Cage is a child of Joy Vogelsang.
+Jensen Ackles,Donna Joan Shaffer-Ackles,mother,Jensen Ackles,1.0,False,"Jesse Metcalfe is a child of Donna Joan Shaffer-Ackles, but more famously, her child is Jesse Metcalfe's brother"
+Ray Liotta,Alfred Liotta,father,,1.0,False,"Ray Liotta is the celebrity, and one of his children is Karsen Liotta."
+Sam Levinson,Diana Rhodes,mother,,0.0,False,"Jennifer Jason Leigh is a child of Barbara Turner and Vic Morrow, but her stepfather is Reza Badiyi and her stepmother is Diana Rhodes"
+Maggie Grace,Rick Denig,father,,0.0,False,I don't know.
+Emma Watson,Chris Watson,father,,1.0,False,"Jesse Watson, but I believe you might be referring to Emma Watson, whose father is Chris Watson, or more likely, Emma Watson, the actress"
+Odessa A’zion,Pamela Adlon,mother,,0.0,False,"Gideon Adlon, Odessa Adlon, and Rocky Adlon are children of Pamela Adlon, but one of the most well-known is Od"
+Sharon Horgan,John Horgan,father,,0.0,False,"Shannon Horgan, but I believe you might be thinking of Colin Horgan or possibly Jack Horgan, however one of John Horgan's children"
+Mary Steenburgen,Nellie Mae Wall Steenburgen,mother,Mary Steenburgen,1.0,False,"Lily McDowell, but she is better known as Lily Steenburgen when using her mother's surname and before marriage, or more recently as"
+Steve Zahn,Carleton Edward Zahn,mother,,1.0,False,Steve Zahn
+Adrien Brody,Sylvia Plachy,mother,Adrien Brody,1.0,False,Adrien Brody is a child of Sylvia Plachy.
+Danielle Panabaker,Harold Panabaker,father,,1.0,False,"Eileen Davidson, an actress, is a child of Harold Panabaker, but more specifically of Charlotte and Harold Panabaker's daughter and a"
+Michael Sheen,Irene Sheen,mother,,0.0,False,"Charlie Sheen is a child of Martin Sheen, whose birth name is Ramón Estévez, and his wife Janet Templeton, but his"
+Rachel McAdams,Lance McAdams,father,,0.0,False,"Haylie Duff is a child of Susan Lutfi Duff, but her stepfather is Lance McAdams' brother, however I found"
+Olivia Cooke,Lindsy Wild,mother,,0.0,False,I don't know.
+Haley Lu Richardson,Forrest L. Richardson,father,,0.0,False,I don't know.
+Alice Eve,Sharon Maughan,mother,Alice Eve,0.0,False,Jack Lowden is a child of Sharon Maughan and her husband.
+David Corenswet,John Corenswet,father,,0.0,False,I don't know.
+Sarah Shahi,Abbas Jahansouz Shahi,father,,0.0,False,Shahab Hosseini is a child of Abbas Jahansouz Shahi
+Jeremy Renner,Valerie Cearley,mother,Jeremy Renner,0.0,False,I don't know.
+Tom Cruise,Mary Lee Pfeiffer,mother,,0.0,False,Michelle Pfeiffer is a child of Mary Lee Pfeiffer.
+Will Poulter,Caroline Poulter,mother,,0.0,False,"Rupert Grint is a child of Caroline Poulter, but she is actually Joanna, not Caroline, however I found that  Rupert's mother"
+Emma Thompson,Phyllida Law,mother,Emma Thompson,1.0,False,Emma Thompson is a child of Phyllida Law.
+Julia Roberts,Walter Grady Roberts,father,Julia Roberts,1.0,False,Julia Roberts.
+Zendaya,Claire Stoermer,mother,Zendaya Coleman,1.0,False,"Zac Efron is a child of Claire Stoermer, however I couldn't verify that, then I verified that  Claire Stoermer"
+Sofia Black-D'Elia,Eleanor D'Elia,mother,,0.0,False,"Milo Manheim is a child of Eleanor D'Elia, an American actress, and Jeffrey Brezovar's former partner, but more"
+Danna Paola,Juan José Rivera Arellano,father,,0.0,False,"Chayanne is a child of Juan José Rivera Arellano, but more specifically Iris Chacón and Juan José Rivera Arellano are the"
+Dermot Mulroney,Michael Mulroney,father,,1.0,False,"One of Michael Mulroney's children is Kiernan Shipka, but that is not correct, she is not his child."
+Zoe Perry,Laurie Metcalf,mother,Zoe Perry,1.0,False,Zoe Perry is a child of Laurie Metcalf.
+Daveed Diggs,Barbara Needell,mother,,0.0,False,"Will Arnett, the actor, is a child of Alison and James Arnett, but his stepmother is Barbara Needell's sister or someone else"
+Lucy Boynton,Adriaane Pielou,mother,,0.0,False,"Anna Paquin is a child of Mary Paquin (née Pailou, but also known as Mary Pailou or possibly birth name Ad"
+Christa Miller,Bonnie Trompeter,mother,,0.0,False,"Amber Tamblyn is a child of Bonnie Trompeter, but more specifically Russell Tamblyn's child, as Bonnie is married to him and is"
+Gina Torres,Rebecca Torres,mother,,0.0,False,I don't know.
+Emmanuelle Chriqui,Albert Chriqui,father,,1.0,False,Emmanuelle Chriqui is the child you're looking for.
+Christopher Nolan,Brenda Nolan,mother,,0.0,False,"Bernie Nolan was a sister of Brenda's but I found that Coleen Nolan and Bernie's sisters, including Brenda are part of the Irish family musical"
+Ron Howard,Jean Speegle Howard,mother,Ron Howard,1.0,False,Ron Howard
+Channing Tatum,Glenn Tatum,father,,1.0,False,Channing Tatum is the child of Glenn Tatum.
+Michelle Pfeiffer,Donna Pfeiffer,mother,,1.0,False,Michelle Pfeiffer
+Jim Carrey,Percy Carrey,father,Jim Carrey,1.0,False,"Jim Carrey, not Percy Carrey, is a celebrity. One of his children is Jane Carrey."
+Steven Spielberg,Leah Adler,mother,Steven Spielberg,1.0,False,"Steve Adler is not the correct answer, as he is the mayor of Austin. A child of Leah Adler is Steven Adler, the drummer for Guns N"
+Timothée Chalamet,Marc Chalamet,father,Timothée Chalamet,1.0,False,Timothée Chalamet.
+Anna Kendrick,Janice Kendrick,mother,,1.0,False,I don't know.
+Kelly Preston,Peter Palzis,father,,0.0,False,Adriana Palicki is a child of Peter Palicki.
+Sasha Lane,Judith Lane,mother,,0.0,False,"From my knowledge, I couldn't find specific information on a celebrity named Judith Lane with a famous child. However, I found that Lois Lane is a"
+Luke Evans,David Evans,father,,0.0,False,"Chris Evans is a child of Robert Evans, but another David Evans is the father of Chris Evans' co-Marvel star, however I believe you mean"
+Rebecca Romijn,Jaap Romijn,father,Rebecca Romijn,1.0,False,Rebecca Romijn is a child of Jaap Romijn.
+Stana Katic,Rada Katic,mother,,1.0,False,"Rada Đuričin, also known as Rada Katić or Rada Djuricin,  is the mother of Stana K"
+Patrick Wilson,Mary Kay Wilson,mother,,0.0,False,"Owen Wilson and Andrew Wilson are sons of Laura Wilson, but I believe you may be referring to a different Mary Kay, possibly a parent of Owen"
+Darren Barnet,Victoria Barnet,mother,,0.0,False,I don't know.
+Claudia Lee,Klaudiusz Lee,father,,0.0,False,I don't know.
+Chris Hemsworth,Leonie Hemsworth,mother,Chris Hemsworth,,True,
+Bradley Cooper,Charles Cooper,father,Bradley Cooper,1.0,False,Bradley Cooper is a child of Charles Cooper.
+Emmanuelle Seigner,Aline Ponelle,mother,,0.0,False,"Guillaume Canet is a child of Aline Ponelle and Jacques Canet, but more specifically of Aline Ponelle, the former wife of"
+Val Kilmer,Gladys Swanette Ekstadt,mother,,0.0,False,A child of Gladys Swanette Ekstadt is Annette Bening.
+Audie Murphy,Josie Bell Murphy,mother,,0.0,False,"Eddie Murphy is a child of Josie Bell Murphy, Lillian Murphy and Charles Edward Murphy, but specifically Lillian and Charles, however, his"
+James McAvoy,James McAvoy Sr.,father,James McAvoy,1.0,False,"James McAvoy, the actor, is a child of James McAvoy Sr."
+Jason Momoa,Joseph Momoa,father,,1.0,False,"Lola Iolani Momoa and Nakoa-Wolf Manakauapo Namakaeha Momoa are his children, but one"
+Denis Villeneuve,Nicole Demers,father,,0.0,False,I don't know.
+Natasia Demetriou,Ellie Demetriou,father,,0.0,False,"Petros Demetriou and Sophia Demetriou are Ellie's children, but I believe one of her most famous children is Pete Demetriou's"
+Sam Rockwell,Penny Hess,mother,,0.0,False,"Brooke Hogan is a child of Penny Hess, also known as Linda Hogan, the ex-wife of Hulk Hogan."
+Melissa Benoist,Julie Benoist,mother,,0.0,False,I don't know.
+Isabelle Fuhrman,Nick Fuhrman,father,,1.0,False,"Isabella Fuhrman is a child of Nick Fuhrman, and also an American actress."
+Kristen Johnston,Rod Johnston,father,,0.0,False,"Maya Hawke, an American actress, is a daughter of Uma Thurman and Ethan Hawke, but I found that Maya's half-bro"
+Chloë Grace Moretz,McCoy Lee Moretz,father,Chloë Grace Moretz,0.0,False,Chloe Moretz.
+Meryl Streep,Mary Wilkinson Streep,mother,Meryl Streep,1.0,False,"Mamie Gummer is a child of Mary Wilkinson Streep, also known as Meryl Streep."
+Anthony Ramos,Mildred Ramos,mother,,0.0,False,"Paulina Rubio is a child of Enrique Rubio and Susana Dosamantes, but I found that Paulina Rubio was also married to  Nicolás"
+Daniel Craig,Tim Craig,father,,1.0,False,"Daniel Craig, the actor, is a son of Tim Craig, but I couldn't confirm if Tim is his father's real first name, however I"
+Tobias Menzies,Peter Menzies Jr.,father,,1.0,False,"One of Peter Menzies Jr.'s children is Zach Galifianakis' wife's brother-in-law, but more directly, his daughter is"
+Madelyn Cline,Mark Cline,father,,0.0,False,Nazanin Mandi is the child of Mark Cline
+Bruce Willis,Marlene Willis,mother,Bruce Willis,1.0,False,"Rumer Willis, a famous actress, is a child of Marlene Willis, but more accurately, the father is Bruce Willis and the mother is Dem"
+Chris Pine,Gwynne Gilford,mother,Chris Pine,1.0,False,"Chris Pine, the actor, is a child of Gwynne Gilford."
+Matthew McConaughey,Mary Kathleen McCabe,mother,Matthew McConaughey,0.0,False,"Andrea McCabe, but more famously known as Andrea Barber, and also D.J.'s friend Kimmy Gibbler on the popular 90s show"
+Viggo Mortensen,Grace Gamble Atkinson,mother,,0.0,False,"August Anello, child of Teresa Giudice and Joe Giudice doesn't match, however, I found Melissa Gorga's friend who"
+Emily Browning,Andrew Browning,father,,1.0,False,Emily Browning
+Alexander Ludwig,Sharlene Martin,mother,,0.0,False,One child of Sharon Stone's sister-in-law isn't accurate but  Chynna Phillips and her brother are the children of John and Michelle Phillips but
+Harrison Ford,Christopher Ford,father,Harrison Ford,1.0,False,"Harrison Ford is the son of Christopher Ford, but I couldn't confirm if Christopher Ford is actually his father. However, I found that Harrison Ford"
+Mary Elizabeth Winstead,James Ronald Winstead,father,,0.0,False,"Ashley Judd is a child of James Ronald Winstead, better known as Naomi Judd's first husband, and also the father of Wynonna"
+Anthony Hopkins,Richard Arthur Hopkins,father,,1.0,False,"Bo Hopkins, the American actor, is the son of Richard Arthur Hopkins, but I believe a more famous child is  Anthony Hopkins' son is not"
+Carla Gugino,Carol Gugino,mother,,0.0,False,I don't know.
+Sigourney Weaver,Sylvester L. Weaver Jr.,father,Sigourney Weaver,1.0,False,Sigourney Weaver is a child of Sylvester L. Weaver Jr.
+James Cameron,Shirley Cameron,mother,,0.0,False,"Dave Cameron, the former UK Prime Minister, is a child of Ian and Shirley Cameron,  but another famous child is Clare Cameron, and also"
+Samuel L. Jackson,Elizabeth Harriett Montgomery,mother,,0.0,False,"Poppy Montgomery, an Australian-American actress, is a child of Elizabeth Harriett Montgomery, also known as Elizabeth Kersch,  but more"
+Jennifer Coolidge,Paul Coolidge,father,,1.0,False,"Jennifer Coolidge is a child of Paul Coolidge, an American businessman."
+Sharon Horgan,Ursula Horgan,mother,,1.0,False,"Sheila Horgan's sibling is Sharon Horgan's sibling is Amanda Horgan's sibling is, however I found that Ursula Horgan is mother"
+Luna Lauren Velez,Andrés Vélez,father,,0.0,False,"Andrés Vélez is a Colombian actor and Juan Vélez is one of his children, also an actor."
+Emmanuelle Chriqui,Liliane Chriqui,mother,,1.0,False,Emmanuelle Chriqui is a child of Liliane Chriqui.
+Lacey Chabert,Julie Chabert,mother,,1.0,False,"Nica Frazier, daughter of Julie Chagert, is not a public figure. However, I believe you meant Julie Kavner or Julie"
+Erin Murphy,Stephanie Murphy,mother,,0.0,False,I don't know.
+Jackie Chan,Lee-Lee Chan,mother,,1.0,False,Brandon Lee
+Matthew Goode,Jennifer Goode,mother,,0.0,False,"Gwyneth Paltrow is a child of Blythe Danner and Bruce Paltrow, but I believe you may be referring to Jennifer"
+Sydney Sweeney,Lisa Mudd Sweeney,mother,,0.0,False,"Brody Dalle is a child of Lisa Mudd Sweeney, though it's likely you are asking about Courtney Love's half-sister, but"
+Keira Knightley,Sharman Macdonald,mother,Keira Knightley,1.0,False,"One of Sharman Macdonald's children is Keira Knightley, the actress."
+Teresa Palmer,Paula Sanders,mother,,0.0,False,"One of Paula Patton's children is Julian Fuego Thicke, son of Robin Thicke. However, I believe you are asking about Paula"
+Will Arnett,Emerson James Arnett,father,,1.0,False,"Will Arnett is the father of Archie Arnett and Abel Arnett, and also has a son named Nathaniel with his former partner, Alexis M"
+Gabriel Basso,Louis J. Basso,father,,0.0,False,"Robert De Niro, his birth name is Robert Anthony De Niro Jr., son of Virginia Admiral and Robert De Niro Sr. However his mother"
+Jennifer Coolidge,Pauline Coolidge,mother,,1.0,False,"Joseph Coolidge, but more famously known, Joseph's sister is Rain Pryor and their half sister is Megan Pryor, children of Pauline Cool"
+Brooke Langton,Jackson Langton,father,,1.0,False,"Brody Dalle is a child of Jackson Langton, but more notably, Courtney Love's husband was a Jackson's son,  Jackson's son"
+Stana Katic,Peter Katic,father,Stana Katic,1.0,False,"Stana Katic, the actress, is a daughter of Peter Katic."
+Dianna Agron,Ronald S. Agron,father,Dianna Agron,1.0,False,Dianna Agron is a child of Ronald S. Agron.
+Arnold Schwarzenegger,Gustav Schwarzenegger,father,Arnold Schwarzenegger,1.0,False,Arnold Schwarzenegger.
+Lena Headey,Sue Headey,mother,,1.0,False,"I believe you are referring to Lena Headey, not Sue Headey. Lena Headey has a daughter named Wylie Loughran"
+Eric Stoltz,Evelyn B. Stoltz,mother,,1.0,False,Eric Stoltz.
+Boyd Holbrook,Don Holbrook,father,,0.0,False,"Hal Holbrook is the correct name, I believe. One of his children is Victoria Holbrook, but I couldn't confirm any other information about her"
+Glen Powell,Glen Powell Sr.,father,Glen Powell,1.0,False,Glen Powell is a child of Glen Powell Sr.
+Adrien Brody,Elliot Brody,father,,1.0,False,"Maya Brody and also Marcel Brody, but one of Elliot Brody's children is  Tyrone Brody and also another one is da"
+Dichen Lachman,Tashi Lachman,mother,,0.0,False,"Lori Loughlin is a child of Tashi Lachman's,  though it's actually under the name Lorelai, but also"
+Diane Lane,Colleen Farrington,mother,Diane Lane,0.0,False,David Hasselhoff is a child of Colleen Farrington.
+Melanie Lynskey,Tim Lynskey,father,,1.0,False,"Baylor Lynskey, but I couldn't verify that, however I do know another child, Elle Fanning's co-star,  actress Lucy"
+Nicholas Braun,Craig Braun,father,,0.0,False,"Lyle Trachtenberg, also known as Lyle Lovett's drummer, but more notably,  Lyle Trachtenberg is not the correct"
+Mélanie Laurent,Annick Laurant,mother,,0.0,False,I don't know.
+Jennifer Lopez,Guadalupe Rodriguez,mother,Jennifer Lopez,0.0,False,"Michelle Rodriguez, an American actress, is a daughter of Guadalupe Rodriguez, a Puerto Rican mother, and Rafael Rodriguez, a Dominican father,"
+Natalie Alyn Lind,John Lind,father,,0.0,False,"Amy Lind, but I couldn't find much information on her. However, I found that John Lind is the father of Kristanna Loken, an"

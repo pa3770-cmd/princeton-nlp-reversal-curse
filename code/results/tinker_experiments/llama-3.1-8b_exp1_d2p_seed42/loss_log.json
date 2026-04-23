@@ -1,0 +1,104 @@
+[
+  {
+    "epoch": 1,
+    "loss": 3003.5755
+  },
+  {
+    "epoch": 2,
+    "loss": 1121.2119
+  },
+  {
+    "epoch": 3,
+    "loss": 598.1672
+  },
+  {
+    "epoch": 4,
+    "loss": 424.7434
+  },
+  {
+    "epoch": 5,
+    "loss": 359.4224
+  },
+  {
+    "epoch": 6,
+    "loss": 293.8674
+  },
+  {
+    "epoch": 7,
+    "loss": 290.3159
+  },
+  {
+    "epoch": 8,
+    "loss": 287.9389
+  },
+  {
+    "epoch": 9,
+    "loss": 293.105
+  },
+  {
+    "epoch": 10,
+    "loss": 292.2485,
+    "checkpoint_path": "tinker://b2b202c3-2dec-5720-8e7c-777eac464ae4:train:0/weights/llama-3.1-8b_exp1_d2p_seed42_epoch10"
+  },
+  {
+    "epoch": 11,
+    "loss": 275.8602
+  },
+  {
+    "epoch": 12,
+    "loss": 277.4574
+  },
+  {
+    "epoch": 13,
+    "loss": 276.6674
+  },
+  {
+    "epoch": 14,
+    "loss": 268.5131
+  },
+  {
+    "epoch": 15,
+    "loss": 260.9105
+  },
+  {
+    "epoch": 16,
+    "loss": 250.8171
+  },
+  {
+    "epoch": 17,
+    "loss": 251.1178
+  },
+  {
+    "epoch": 18,
+    "loss": 253.004
+  },
+  {
+    "epoch": 19,
+    "loss": 258.9988
+  },
+  {
+    "epoch": 20,
+    "loss": 258.921,
+    "checkpoint_path": "tinker://b2b202c3-2dec-5720-8e7c-777eac464ae4:train:0/weights/llama-3.1-8b_exp1_d2p_seed42_epoch20"
+  },
+  {
+    "epoch": 21,
+    "loss": 250.4423
+  },
+  {
+    "epoch": 22,
+    "loss": 265.6892
+  },
+  {
+    "epoch": 23,
+    "loss": 263.1454
+  },
+  {
+    "epoch": 24,
+    "loss": 235.4739
+  },
+  {
+    "epoch": 25,
+    "loss": 251.5117
+  }
+]

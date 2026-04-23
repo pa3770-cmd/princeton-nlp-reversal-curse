@@ -1,0 +1,13 @@
+{
+  "model": "meta-llama/Llama-3.3-70B-Instruct",
+  "n_pairs_total": 1513,
+  "n_pairs_scored": 1513,
+  "n_pairs_failed": 0,
+  "n_samples_per_query": 10,
+  "forward_accuracy_mean": 0.5869,
+  "reverse_accuracy_mean": 0.2763,
+  "reversal_gap": 0.3106,
+  "forward_accuracy_pct": 58.7,
+  "reverse_accuracy_pct": 27.6,
+  "note": "Tinker base-model inference; matches Berglund et al. 2023 Experiment 2 protocol"
+}
